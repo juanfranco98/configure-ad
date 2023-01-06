@@ -34,7 +34,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/mK7Ls85.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Begin by creating a Domain Controller Virtual Machine using the "Windows Server 2022" option and name it "DC-1". Make sure to confirm that the resource group and Virtual Network are created as well.
+1. Begin by creating a Domain Controller Virtual Machine using the "Windows Server 2022" option and name it "DC-1". Make sure to confirm that the resource group and Virtual Network are created as well.
 </p>
 <br />
 
@@ -42,14 +42,32 @@ Begin by creating a Domain Controller Virtual Machine using the "Windows Server 
 <img src="https://i.imgur.com/r8c6vlr.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Ensure that you set the Domain Controllers private IP address to "Static" instead of dynamic.
+2. Ensure that you set the Domain Controllers private IP address to "Static" instead of dynamic.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sZG2JPo.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+3. Now you must create another VM titled "Client-1" but you must make sure to use the same resource group and Vnet that was automatically created in step 1. Also, dont forget to verify that both VM's are in the same Vnet. You can check using the "Network Watcher" feature.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/a3hTWHW.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+4. The next step is to remote desktop into DC-1 and install Active Directory Domain Services. The server manager should already be open once youve signed into DC-1. Select "Add roles and features." From there make sure you add "Active Directory Domain Services" and proceed with the install.                                           
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/MLb6Hs6.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>                                                   
+4a. There should now be an alert at the top right of the server manager screen. Once you click that you'll have the option to promote the server to a domain controller. Choose that option to offically have all of the proper features.                                                   
+                                                   
+                                                   
+                                                   
+                                                   
