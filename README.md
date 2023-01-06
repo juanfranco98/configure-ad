@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mK7Ls85.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Begin by creating a Domain Controller Virtual Machine using the "Windows Server 2022" option and name it "DC-1". Make sure to confirm that the resource group and Virtual Network are created as well.
