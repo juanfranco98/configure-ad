@@ -67,7 +67,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>                                                   
 4a. There should now be an alert at the top right of the server manager screen. Once you click that you'll have the option to promote the server to a domain controller. Choose that option to offically have all of the proper features.                                                   
-                                                   
-                                                   
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/nfDDzru.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>                                                   
+4b. You should now be brought to a new window titled "Deployment Configuration". Select the option to create a new forest. For the "Root domain name" option enter "mydomain.com" for this example.                                                   
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
+                                                                                                
                                                    
                                                    
