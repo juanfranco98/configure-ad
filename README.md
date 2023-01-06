@@ -107,8 +107,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/iJ0DKjQ.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>        
-8. Log into Client-1 as "mydomain\jane_admin" with the password you previously created and open system properties. Select "Remote Desktop" and then allow "Domain Users" to access remote desktop.
-  
+8. Log into Client-1 as "mydomain\jane_admin" with the password you previously created and open system properties. Select "Remote Desktop" and then allow "Domain Users" to access remote desktop. You should now be able to remote into Client-1 as any non-admin user!
+                                                                                             
+                     Congrats! You've completed the lab!                                                                           
+                                                                                                
   
   
   
