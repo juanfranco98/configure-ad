@@ -104,10 +104,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/nzf5JKX.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iJ0DKjQ.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>        
-8.   
+8. Log into Client-1 as "mydomain\jane_admin" with the password you previously created and open system properties. Select "Remote Desktop" and then allow "Domain Users" to access remote desktop.
   
   
   
