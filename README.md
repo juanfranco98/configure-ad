@@ -74,7 +74,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/nfDDzru.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>                                                   
-4b. You should now be brought to a new window titled "Deployment Configuration". Select the option to create a new forest. For the "Root domain name" option enter "mydomain.com" for this example. Make it an easy password that you can remember. DC-1 shouldve signed you out as well as terminated the remote desktop connection. Log back into DC-1 as the user you previously created during the setup process. The login will be "mydomain.com\" followed by your username as well as the password created.                                                  
+4b. You should now be brought to a new window titled "Deployment Configuration". Select the option to create a new forest. For the "Root domain name" option enter "mydomain.com" for this example. Make it an easy password that you can remember. DC-1 shouldve signed you out as well as terminated the remote desktop connection. Log back into DC-1 as the user you previously created during the setup process. The login will be "mydomain.com\" followed by your username as well as the password created. 
 </p>
 <br />
 
@@ -83,8 +83,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 <p>                                                                                                   
 5. Create an organizational unit titled "_EMPLOYEES" by clicking the "Tools" option at the top right then selecting "Active Directory Users and Computers". Right click on your domain then select "New"->"Organizational Unit" and title accordingly. Repeat the same process and title the next one "_ADMINS".
-                                                                                                
-                                                                                                
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/3fxDLnY.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>                                                                                                      
+6. Create an employee named "Jane Doe" using the same password you've already been using with the username "jane_admin". Similar to how you created the organization units, this time right click "_ADMINS"->"New"->"User". Make sure to add her to the "Domain Admins" security group as you will be using the jane_admin user as your main admin account to get an idea of a real world simulation. Again, use the same password you've been using for ease of access. Once created right click your newly created user and head to "Properties" then "Member Of". Select "Add.." then type "domain admin" and check names. Join her to the "Domain Admins" group.                                                                                            
                                                                                                 
                                                                                                 
                                                    
