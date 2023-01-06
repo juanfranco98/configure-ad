@@ -87,7 +87,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <br />
 
 <p>
-<img src="https://i.imgur.com/3fxDLnY.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mzwLh3P.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>                                                                                                      
 6. Create an employee named "Jane Doe" using the same password you've already been using with the username "jane_admin". Similar to how you created the organization units, this time right click "_ADMINS"->"New"->"User". Make sure to add her to the "Domain Admins" security group as you will be using the jane_admin user as your main admin account to get an idea of a real world simulation. Again, use the same password you've been using for ease of access. Once created right click your newly created user and head to "Properties" then "Member Of". Select "Add.." then type "domain admin" and check names. Join her to the "Domain Admins" group.                                                                                            
