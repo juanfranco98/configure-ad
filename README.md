@@ -74,10 +74,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/nfDDzru.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>                                                   
-4b. You should now be brought to a new window titled "Deployment Configuration". Select the option to create a new forest. For the "Root domain name" option enter "mydomain.com" for this example.                                                   
-                                                                                                
-                                                                                                
-                                                                                                
+4b. You should now be brought to a new window titled "Deployment Configuration". Select the option to create a new forest. For the "Root domain name" option enter "mydomain.com" for this example. Make it an easy password that you can remember. DC-1 shouldve signed you out as well as terminated the remote desktop connection. Log back into DC-1 as the user you previously created during the setup process. The login will be "mydomain.com\" followed by your username as well as the password created.                                                  
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/3fxDLnY.png" height=60%" width="60%" alt="Disk Sanitization Steps"/>
+</p>
+<p>                                                                                                   
+5. Create an organizational unit titled "_EMPLOYEES" by clicking the "Tools" option at the top right then selecting "Active Directory Users and Computers". Right click on your domain then select "New"->"Organizational Unit" and title accordingly. Repeat the same process and title the next one "_ADMINS".
                                                                                                 
                                                                                                 
                                                                                                 
