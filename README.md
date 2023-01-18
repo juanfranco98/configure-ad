@@ -2,13 +2,13 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Deploying Active Directory in the Could (Azure)</h1>
+<h1>Deploying Active Directory in the Cloud (Azure)</h1>
 This tutorial will aid you in implementing Active Directory within an Azure Virtual Machine.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
